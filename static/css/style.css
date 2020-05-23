@@ -1,0 +1,23 @@
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.nav-name {
+    padding-left: 2rem;
+    padding-right : 5rem;
+}
+
+
+.container-fluid {
+    margin-top: 2rem;
+}
+
+.image {
+    max-width : 65%;
+    height : 300px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}

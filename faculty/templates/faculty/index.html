@@ -1,0 +1,93 @@
+{% extends 'faculty/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+
+<div class = 'container-fluid'>
+
+    <div class = 'row mb-3'>
+        <div class="col-sm-1"></div>
+        <div class = 'col-sm-11'>
+            <span><strong>Madhu Mutyam</strong></span>
+        </div> 
+    </div>
+
+    <div class = 'row mb-3'>
+        
+        <div class="col-sm-1"></div>
+        
+        <div class = 'col-sm-5'>
+            <img src="{% static 'images/Madhu.jpeg' %}" class = 'img-fluid image' alt = 'Responsive Image'>
+        </div>
+        
+        <div class = "col-sm-5">
+            <ul class="list-group">
+                <li class="list-group-item">Profile</li>
+                <li class="list-group-item box">
+                    <span>Designation</span>
+                    <span>Professor</span>
+                </li>
+                <li class="list-group-item box">
+                    <span>Department</span>
+                    <span>Computer Science & Engineering</span>
+                </li>
+                <li class="list-group-item box">
+                    <span>Contact Number</span>
+                    <span>8768783233</span>
+                </li>
+                <li class="list-group-item box">
+                    <span>Email</span>
+                    <span>madhu@example.com</span>
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+
+    <div class = 'row mb-3'>
+        <div class = 'col'>
+            <div class="card">
+                <div class="card-header">
+                    Courses Taught
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = 'row mb-3'>
+        <div class = 'col'>
+            <div class="card">
+                <div class="card-header">
+                    Areas Of Interest
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = 'row mb-3'>
+        <div class = 'col'>
+            <div class="card">
+                <div class="card-header">
+                    Publications
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
